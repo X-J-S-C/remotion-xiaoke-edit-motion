@@ -1,0 +1,20 @@
+{
+  "name": "remotion-xiaoke-edit-motion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion recreation of the \"小克剪辑\" (claude_剪视频过程motion) screen-recording clip, id e3ee409a-50f7-4b4a-af27-288226e47a57",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render src/index.js Xiaoke out/xiaoke-edit.mp4",
+    "audio": "node scripts/make-audio.mjs",
+    "still": "remotion still src/index.js Xiaoke out/frame.png --frame=810"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@remotion/cli": "4.0.251",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.251"
+  }
+}
